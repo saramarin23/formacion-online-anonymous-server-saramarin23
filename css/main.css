@@ -1,0 +1,36 @@
+/* COMMON */
+body {}
+.page {}
+
+
+
+
+/* HEADER */
+.page__header {}
+.nav-trigger {}
+
+
+
+
+/* MENU */
+.nav {}
+.nav__items {}
+.nav__item {}
+.nav__link {}
+.nav-close {}
+
+
+
+
+/* MAIN */
+.page__main {}
+.page__wrapper {}
+.page__main-title {}
+
+
+
+
+/* FOOTER */
+.page__footer {}
+.page__footer {}
+.page__footer-copy {}
