@@ -1,36 +1,56 @@
 /* COMMON */
-body {}
-.page {}
-
-
-
+body {
+  background-image: url("../images/anonymous-server-background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.page {
+  height: 100vh;
+}
 
 /* HEADER */
-.page__header {}
-.nav-trigger {}
-
-
-
+.page__header {
+}
+.nav-trigger {
+}
 
 /* MENU */
-.nav {}
-.nav__items {}
-.nav__item {}
-.nav__link {}
-.nav-close {}
-
-
-
+.nav {
+}
+.nav__items {
+}
+.nav__item {
+}
+.nav__link {
+}
+.nav-close {
+}
 
 /* MAIN */
-.page__main {}
-.page__wrapper {}
-.page__main-title {}
-
-
-
+.page__main {
+}
+.page__wrapper {
+}
+.page__main-title {
+  color: white;
+}
 
 /* FOOTER */
-.page__footer {}
-.page__footer {}
-.page__footer-copy {}
+.page__footer {
+}
+.page__footer {
+  background-color: #f7f7f7;
+  opacity: 0.35;
+  padding: 20px 50px;
+  bottom: 0;
+  width: 80%;
+  margin: 0 auto;
+  height: 20px;
+  border-radius: 7px;
+}
+.page__footer-copy {
+  color: black;
+  text-align: center;
+  font-family: "Arial";
+  margin: 0;
+}
