@@ -1,30 +1,40 @@
 /* COMMON */
 body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
   background-image: url("../images/anonymous-server-background.jpg");
   background-size: cover;
   background-position: center;
-  /* box-sizing: border-box; */
-  margin: 0;
+  box-sizing: border-box;
 }
 .page {
   height: 100vh;
-  margin: 0 30px;
+  padding: 0 30px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  /* background-image: linear-gradient(
+  background-image: linear-gradient(
     -180deg,
     rgba(0, 0, 0, 0) 0%,
     rgba(0, 0, 0, 0.35) 50%
-  ); */
+  );
 }
 
 /* HEADER */
 .page__header {
-  background-color: #3f2929;
-  opacity: 0.9;
+  background-color: #402929;
+  opacity: 0.92;
 }
 .nav-trigger {
+  background-image: url("../images/ico-menu.svg");
+  background-color: #333332;
+  background-position: center;
+  background-size: cover;
+  color: transparent;
+  border: none;
+  height: 40px;
+  border-radius: 4px;
 }
 
 /* MENU */
@@ -43,6 +53,14 @@ body {
   font-family: "Roboto Slab";
 }
 .nav-close {
+  background-image: url("../images/ico-close.svg");
+  background-color: black;
+  color: transparent;
+  border: none;
+  height: 40px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 4px;
 }
 
 /* MAIN */
@@ -59,10 +77,8 @@ body {
 
 /* FOOTER */
 .page__footer {
-}
-.page__footer {
   background-color: #f7f7f7;
-  opacity: 0.25;
+  opacity: 0.15;
   bottom: 0;
   height: 35px;
   border-radius: 5px;
@@ -70,16 +86,18 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
-  /* color: white; */
+  z-index: -1;
 }
 .page__footer-copy {
   text-align: center;
   font-family: "Arial";
+  color: white;
+  z-index: 0;
 }
 
 @media all and (min-width: 768px) {
   .page {
-    margin: 0 45px;
+    padding: 0 45px;
   }
   .page__main-title {
     font-size: 70px;
@@ -88,7 +106,7 @@ body {
 
 @media all and (min-width: 768px) {
   .page {
-    margin: 0 140px;
+    padding: 0 140px;
   }
   .page__main-title {
     font-size: 90px;
