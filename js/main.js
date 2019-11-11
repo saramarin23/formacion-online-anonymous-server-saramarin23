@@ -7,16 +7,16 @@ const navTrigger = document.querySelector(".nav-trigger");
 
 function makeSthMenuBtn() {
   console.log("Has pinchado para desplegar el menú");
-  navMenu.classList.remove("js-hide");
-  menuButton.classList.add("js-hide");
-  closeButton.classList.remove("js-hide");
+  navMenu.classList.remove("js-hidden");
+  menuButton.classList.add("js-hidden");
+  closeButton.classList.remove("js-hidden");
 }
 
 function makeSthCloseBtn() {
   console.log("Has clickado el botón de cerrar");
-  navMenu.classList.add("js-hide");
-  closeButton.classList.remove("js-hide");
-  navTrigger.classList.remove("js-hide");
+  navMenu.classList.add("js-hidden");
+  closeButton.classList.remove("js-hidden");
+  navTrigger.classList.remove("js-hidden");
 }
 
 menuButton.addEventListener("click", makeSthMenuBtn);
